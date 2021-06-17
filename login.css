@@ -1,0 +1,92 @@
+@media only screen  and (max-width: 1024px){
+    .form-section {    
+        width: 100vw;
+        text-align: center;
+    }
+    .main-content {    
+          width: 100vw;
+    }
+    img {
+        display: none;
+    }
+    .input-field {
+        width: 200px;
+    }
+   .button {
+        
+        margin-top: 13em;
+        margin-left: -13em;  
+   } 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Mulish, Helvetica, sans-serif;
+    
+}
+.main-content {
+    margin: 10em auto;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    box-shadow: 5px 5px 20px #efefef;
+}
+
+.form-section {
+    top: 10%;
+    width: 50%;
+    left: 45%;
+    position: absolute;
+}
+.subtext {
+    margin-top: -1em;
+    margin-bottom: 3em;
+    font-size: 14px;
+}
+.forgot-password {
+    color: #3C64B1;
+    font-size: 14px;
+    margin-bottom: 2em;
+}
+.sign-up {
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #3C64B1;
+}
+img {
+    height: 50%;
+    width: 35%;
+    margin-bottom: -4px;
+}
+.input-field {
+    font-family: Mulish ,sans-serif;
+    width: 300px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+input:focus {
+    outline: none;
+    border: 1px solid #3C64B1;
+}
+.button {
+    border: 0px solid white;
+	border-radius: 4px;
+  	width: 120px;
+  	height: 40px;
+    position: absolute;
+    top: 18em;
+    left: 13em;  
+  	box-sizing: border-box;
+    background-color: #3C64B1;
+  	text-align: center;
+  	color: white;
+  	font-size: 14px;
+  	font-family: Mulish,sans-serif;
+}

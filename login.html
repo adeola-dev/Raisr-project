@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>Raisr</title>
+</head>
+<body>
+    <form action="raisr.herokuapp.com/api/v1/register" method="post">
+        <main class="main-content">
+            <img src="assets/background.png" alt="background">
+            <section class="form-section">
+                <h1 class="authentication-text">Welcome, Johnson</h1>
+                <p class="subtext">Enter your login details to sign in</p>
+                <input class="input-field" type="email" placeholder="E-mail address" name="email" id="email">
+                <input class="input-field" type="password" placeholder="Enter password" name="password" id="password">
+                <p class="forgot-password">Forgot password?</p>
+                <p class="sign-up">Not registered?<a href="">Sign Up</a></p>
+                <button type="submit" class="button">Sign in</button>
+            </section>
+        </main>
+    </form>
+</body>
+</html>
